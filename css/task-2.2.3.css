@@ -1,9 +1,9 @@
 img {max-width: 300px ;}
-p {background-color: rosybrown;}
-ul {font-size: 28px; background-color: salmon;}
+p {background-color: rosybrown; font-family: fantasy;}
+ul {font-size: 28px; background-color: salmon; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 h1 {font-size: 46; color: silver;}
 a {color: hotpink; font-family: fantasy;}
 ol {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold; background-color: indigo;}
 h2 {color: lawngreen; font-size: 38px;}
-h3 {color: fuchsia; font-stretch: extra-expanded;}
-body {background-color: goldenrod;}
+h3 {color: fuchsia; font-stretch: extra-expanded; font-size: 45pt;}
+body {background-color: goldenrod; font-weight: bolder;}
