@@ -9,3 +9,6 @@ h3 {color: fuchsia; font-stretch: extra-expanded; font-size: 45pt;}
 body {background-color: goldenrod; font-weight: bolder;}
 p em {font-size: 27pt; color: darkslategrey;}
 p em strong {background-color: darkturquoise; font-size: 42pt;}
+.yellow {color: dimgray; font-size: 32pt;}
+ul li.yellow {color: purple}
+#google {background-color: dodgerblue; font-size: 9pt;}
