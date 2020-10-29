@@ -6,3 +6,7 @@ em {color: orangered;}
 ul {font-style: oblique;}
 div {color: darkred ;}
 h3 {font-size: 24pt;}
+div p em {color: goldenrod; font-size: 8pt;}
+#id_example {color: green; font-size: 32pt; font-style: italic;}
+.class_example {color: darkblue; font-size: 27pt; font-style: initial; font-family: serif;}
+.class_example p {font-size: 12pt;}
