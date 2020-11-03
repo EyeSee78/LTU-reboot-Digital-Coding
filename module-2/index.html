@@ -7,9 +7,12 @@
     <link rel="stylesheet" type="text/css" href="../css/hw-stylesheet.css">
 </head>
 <body>
+    <header>
     <h1>
         We have learnt about opening and closing tags. This sentance is contained within an h1 tag but the css has made it extra small and blue! 
     </h1>
+</header>
+    <div class="left_div">
     <p>
         This sentance is contained within a paragraph tag. 
         <em> This sentance has been emphasised and is nested within this paragraph. The css has made it orangered. Come on which is it? Orange or Red?</em>
@@ -35,17 +38,22 @@
             <strong>This is a strong element. It is nested within a paragraph element within a div element. You'll have to inspect my code for proof, though the css changes the text colour to darkred if it's in a div tag.</strong>
         </p>
     </div>
+</div>
+<div class="right_div">
+    <h2>This div has absolute positioning</h2>
     <p>
         I was asked to take a test on W3Schools. I have taken a screen shot of my results and inserted it below. It's not a perfect score, but it's close.
     </p>
-    <img src="Result.png" alt="Ian's Test Score" width="50%" height="50%">
+    <img src="Result.png" alt="Ian's Test Score" width="100%" height="100%">
 </br>
 <p>
         These are the questions I got wrong even though I used google to find answers to the difficult ones. Why remember stuff when you can look it up, right?
     </p>
-    <img src="Q33.png" alt="Gosh darn it, that's not right" width="50%" height="50%">
+    <img src="Q33.png" alt="Gosh darn it, that's not right" width="100%" height="100%">
 </br>
-    <img src="Q35.png" alt="Who'd'a thunk it?" width="50%" height="50%">
+    <img src="Q35.png" alt="Who'd'a thunk it?" width="100%" height="100%">
+</div>
+<div class="lower_div">
 
     <h2>We also learnt about tables. This is written in an h2 tag. We learnt that they need to be properly ordered for accessibility reasons.</h2>
     <h3>This is an h3 tag and can't be above the first h2 tag on the page. It is bigger than the h2 tag because the css has made it 24pt</h3>
@@ -89,23 +97,24 @@
                 </tr>
         </tbody>
     </table>
+</div>
 </br>
 </br>
 </br>
-    <p>
-        I have left a comment in my code but you'll have to inspect my code to see what it says.
-        <!--I'm really quite enjoying myself :)-->
-    </p>
+    <div class="comment">
+       <p> I have left a comment in my code but you'll have to inspect my code to see what it says.
+        <!--I'm really quite enjoying myself :)--> </p>
+    </div>
 </br>
 </br>
-
-<h3 id="id_example">27th October Learnings - this h3 header has an id_example and the css can target this element using a # and the id.</h3>
+<div class=oct_27>
+<h3 id="id_example">27th October Learnings - this h3 header has an id of "id_example" and the css can target this element using a # and the id.</h3>
 
 </br>
 </br>
 <div>
     <p>
-        <em>This text is in an emphasised tag within paragraph tag within a division. The css has coloured and sized it as it has specified to only affect this nesting: "div p em"</em>
+        <em>This text is in an emphasised tag within paragraph tag within a division. The css has coloured and sized it as it is specified to only affect this nesting: "div p em"</em>
     </p>
 
 </div>
@@ -120,6 +129,7 @@
     <p>This is a paragraph within a class_example div. It's smaller in size as the css has targeted it using .class_example p {} It still follows the other rules from the .class_example css rules.
         
     </p>
+</div>
 </div>
 </br>
 </br>

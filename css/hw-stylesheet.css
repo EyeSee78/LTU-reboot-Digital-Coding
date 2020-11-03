@@ -2,6 +2,7 @@ body {background-color: lightblue;}
 footer {background-color: lightpink;}
 p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 h1 {font-size: x-small; color: mediumblue;}
+h2 {color: black;}
 em {color: orangered;}
 ul {font-style: oblique;}
 div {color: darkred ;}
@@ -10,3 +11,53 @@ div p em {color: goldenrod; font-size: 8pt;}
 #id_example {color: green; font-size: 32pt; font-style: italic;}
 .class_example {color: darkblue; font-size: 27pt; font-style: initial; font-family: serif;}
 .class_example p {font-size: 12pt;}
+div.left_div {position: relative;
+    border: 4px solid blue;
+    margin: 30px;
+    padding: 20px;
+    width: 500px;
+}
+div.lower_div {position: relative;
+        border: 4px solid blue;
+        margin: 30px;
+        padding: 20px;
+        width: 500px;
+
+}
+div.right_div {position: absolute;
+    top: 140px;
+    left: 700px;
+    border: 4px solid blue;
+    margin: 30px;
+    padding: 20px;
+    width: 500px;
+
+}
+footer {position: relative;
+    border: 4px solid blue;
+    margin: 30px;
+    padding: 20px;
+ }
+
+ div.comment {
+    position: relative; 
+    text-align: center;
+    width: 800px;
+    border: 4px dashed darkblue;
+    padding: 50px;
+    margin: 10px auto;
+}
+
+header {
+    position: relative; 
+    text-align: center;
+    width: 800px;
+    border: 4px dashed darkblue;
+    padding: 50px;
+    margin: 10px auto;
+}
+div.oct_27 {position: relative;
+    border: 4px solid blue;
+    margin: 30px;
+    padding: 20px;
+ }
