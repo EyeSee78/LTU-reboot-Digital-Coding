@@ -39,7 +39,7 @@
         console.log (highPrice);
         //create an array to populate the items between the ranges
         var arrItems = [];
-        for(counter = 0; counter < arrCart.length; counter++);
+        for(counter = 0; counter < arrCart.length; counter++){
         //setting variable for the current cart item
         currentItem = arrCart[counter];
         console.log(currentItem);
@@ -53,7 +53,7 @@
         if(itemPrice >= lowPrice && itemPrice <= highPrice){
             arrItems.push(currentItem);
         }
-
+    }
     }
 
     var arrPriceRangeItems = itemPriceRange(arrShoppingCart,1,4)
