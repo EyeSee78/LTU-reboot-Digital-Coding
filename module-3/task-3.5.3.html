@@ -40,12 +40,12 @@
         //create an array to populate the items between the ranges
         var arrItems = [];
         for(counter = 0; counter < arrCart.length; counter++){
-        //setting variable for the current cart item
-        currentItem = arrCart[counter];
-        console.log(currentItem);
-        //setting the variable for the item price so it can be manipulated if desired
-        itemPrice = currentItem.price;
-        //if quantity is true then the number of items in the cart is accounted for
+            //setting variable for the current cart item
+            currentItem = arrCart[counter];
+            console.log(currentItem);
+            //setting the variable for the item price so it can be manipulated if desired
+            itemPrice = currentItem.price;
+            //if quantity is true then the number of items in the cart is accounted for
             if(quantity){
             itemPrice = itemPrice * currentItem.quantity;
         
