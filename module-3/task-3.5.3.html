@@ -46,13 +46,13 @@
         //setting the variable for the item price so it can be manipulated if desired
         itemPrice = currentItem.price;
         //if quantity is true then the number of items in the cart is accounted for
-        if(quantity){
+            if(quantity){
             itemPrice = itemPrice * currentItem.quantity;
         
-        }
-        if(itemPrice >= lowPrice && itemPrice <= highPrice){
+            }
+            if(itemPrice >= lowPrice && itemPrice <= highPrice){
             arrItems.push(currentItem);
-        }
+            }
     }
     }
 
