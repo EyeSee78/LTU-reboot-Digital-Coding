@@ -12,7 +12,7 @@
     </header>
     <main>
         <div class="filterContainer">
-            <button class="buttonFilter" animal="all">Show All</button>
+            <button class="buttonFilter selectedFilter" animal="all">Show All</button>
             <button class="buttonFilter" animal="dachsund">Dachsund</button>
             <button class="buttonFilter" animal="horse">Horse</button>
             <button class="buttonFilter" animal="otter">Otter</button>
@@ -85,6 +85,9 @@
             console.log (currentButton);
             //addEventListener for a click event
             currentButton.addEventListener("click", function(){
+                var selectedFilter = document.querySelector('.selectedFilter')
+                selectedFilter.classList.remove("selectedFilter");
+                this.classList.add("selectedFilter");
                 //getting animal attribute from the button html
                 var animal = this.getAttribute("animal");
                 console.log(animal)
